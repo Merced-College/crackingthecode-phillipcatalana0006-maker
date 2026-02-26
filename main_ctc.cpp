@@ -1,3 +1,5 @@
+// Name: John Catalana, Cristian Galindo
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -65,8 +67,6 @@ int main() {
             break;
         }
     }
-
-    
 
     // Stop Timer
     auto stop = high_resolution_clock::now();
