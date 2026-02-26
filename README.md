@@ -79,3 +79,19 @@ Discuss real-world applications and how cybersecurity protects us.
 Reflect on the importance of strong passwords.
 
 Turn in your code via the github classroom assignment, and your answer to the questions via the github or to this assignment in canvas.
+
+DISCUSSION QUESTION ANSWERS: (John Catalana, Cristian Galindo)
+
+1. Our algorithm basically uses brute force which means we are going to try every possible passcode alue in the valid range. So it starts at the lowest possible number and increments by 1 each attempt. For each guess, it compares the guess with the passcode. When a match occurs, the loop will stop.
+
+2. If there is no extra information as to what might hint to the password, the fastest reliable method is brute force. If you have extra information, a targeted search will be more efficient than brute force.
+
+3. Because the number of possible combinations grow exponentially as length increases. A 4 digit pin has 10,000 possibilities as an 8 digit pin has 100,000,000 possibilities. More combinations means the program may need far more attempts before finding the correct one.
+
+4. People protect their pins by increasing the pin length, avoiding predicatable passwords, limiting login attempts, 2-step verification (very good to use) and maybe even biometrics for additional barriers.
+
+5. Adding letters changes the problem from only counting numbers to searching across a larger character set. Instead of guessing integers, the alogirthm must generate and test strings. This would require nested loops and recursion.
+
+6. Adding letters increases difficulty because it increases the total number of possible passwords. More possible combiantions means more guesses are needed on average
+
+7. You want to maximize the number of combinations so you would increase the length, use a larger character set, and make it very random.
